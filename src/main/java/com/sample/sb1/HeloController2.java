@@ -13,7 +13,7 @@ public class HeloController2 {
 	public ModelAndView index(ModelAndView mav) {
 		mav.setViewName("index");
 
-		mav.addObject("msg","フォームを送信しますか？");
+		mav.addObject("msg","フォームを送信しちょってね。");
 
 		return mav;
 	}
