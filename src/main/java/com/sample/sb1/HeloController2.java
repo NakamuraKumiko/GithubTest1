@@ -12,7 +12,9 @@ public class HeloController2 {
 	@RequestMapping(value="/", method=RequestMethod.GET)
 	public ModelAndView index(ModelAndView mav) {
 		mav.setViewName("index");
+
 		mav.addObject("msg","フォームを送信しちょってね。");
+
 		return mav;
 	}
 
