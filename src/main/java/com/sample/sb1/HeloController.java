@@ -12,7 +12,7 @@ public class HeloController {
 		return mav;
 	}
 	@RequestMapping("/other1")
-	public ModelAndView other() {
+	public ModelAndView other3() {
 		 return new ModelAndView("redirect:/");
 	}
 
