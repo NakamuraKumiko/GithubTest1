@@ -11,8 +11,9 @@ public class HeloController {
 		mav.setViewName("index2");
 		return mav;
 	}
+
 	@RequestMapping("/other1")
-	public ModelAndView other4() {
+	public ModelAndView other4(){
 		 return new ModelAndView("redirect:/");
 	}
 
