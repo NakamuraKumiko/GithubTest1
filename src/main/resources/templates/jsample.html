@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>超簡単！CDNのjQueryを読み込む方法</title>
+<script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+<script>
+    $(function(){
+        $('button').on('click',function(){
+            alert('hello CDN');
+        });
+    });
+</script>
+<style>
+    button{
+        font-size: 20px;
+        padding: 20px;
+    }
+</style>
+</head>
+
+<body id="top">
+    <div class="contents">
+        <button>アラート表示</button>
+    </div><!--contents-->
+</body>
+</html>
