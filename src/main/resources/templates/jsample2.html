@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <!-- <script type="text/javascript" src="Scripts/jquery-3.4.1.js"></script>-->
+    <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+
+    <title></title>
+  <style>
+    <!--
+    .section{
+      height:320px;
+      border:1px solid #0094ff;
+    }
+    -->
+  </style>
+  <script type="text/javascript">
+    $(document).ready(function () {
+      $('#link_section2').on('click', function () {
+        $(window).scrollTop($('#section2').position().top);
+      });
+      $('#link_section3').on('click', function () {
+        $(window).scrollTop($('#section3').position().top);
+      });
+      $('#link_section4').on('click', function () {
+        $(window).scrollTop($('#section4').position().top);
+      });
+      $('#link_section5').on('click', function () {
+        $(window).scrollTop($('#section5').position().top);
+      });
+      $('#link_section6').on('click', function () {
+        $(window).scrollTop($('#section6').position().top);
+      });
+      $('#link_section7').on('click', function () {
+        $(window).scrollTop($('#section7').position().top);
+      });
+      $('#link_section8').on('click', function () {
+        $(window).scrollTop($('#section8').position().top);
+      });
+    });
+  </script>
+</head>
+<body>
+  <div id="section1" class="section">
+    Section1<br />
+    <a id="link_section2" href="javascript:void(0);">Section2</a><br />
+    <a id="link_section3" href="javascript:void(0);">Section3</a><br />
+    <a id="link_section4" href="javascript:void(0);">Section4</a><br />
+    <a id="link_section5" href="javascript:void(0);">Section5</a><br />
+    <a id="link_section6" href="javascript:void(0);">Section6</a><br />
+    <a id="link_section7" href="javascript:void(0);">Section7</a><br />
+    <a id="link_section8" href="javascript:void(0);">Section8</a><br />
+  </div>
+  <div id="section2" class="section">Section2</div>
+  <div id="section3" class="section">Section3</div>
+  <div id="section4" class="section">Section4</div>
+  <div id="section5" class="section">Section5</div>
+  <div id="section6" class="section">Section6</div>
+  <div id="section7" class="section">Section7</div>
+  <div id="section8" class="section">Section8</div>
+</body>
+</html>
